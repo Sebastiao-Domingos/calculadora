@@ -1,0 +1,219 @@
+*{ 
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+button{
+    cursor: pointer;
+}
+section ,.tela{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    width: 350px;
+    height: 600px;
+    margin: auto;
+    background-color: rgb(46, 45, 45);
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px ;
+}
+section div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto{
+    height: 80px;
+    flex-direction: column;
+}
+textarea{
+    font-weight: bolder;
+    font-size: 16pt;
+    width: 100%;
+    background-color: #000;
+}
+#saida{
+    padding: 0 3px 3px 0px;
+    margin-top: 0px;
+    border: none;
+    text-align: end;
+}
+#entrada{
+    padding: 5px 2px 0 5px;
+    border: none;
+    margin-bottom: -0px;
+}
+.tela{
+    width: 87%;
+    border: 8px solid rgba(58, 70, 70, 0.706);
+}
+.botoes1 button, button.simples{
+    width: 40px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 3px 3px 20px rgb(46, 43, 43);
+    border-radius: 3px;
+    margin: 5px;
+    color: white;
+    background-color: black;
+}
+.botoes ,.botoes1{
+    position: relative;
+   padding: 5px;
+}
+
+.botoes0{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 10px ;
+}
+.botoes0 div{
+    position: relative;
+    width: 30%;
+    height: 80px;
+}
+.botoes0 div button{
+    width: 35px;
+    margin: 10px;
+    position: absolute;
+}
+.botoes0 .simples1{
+    border-radius: 6px;
+    border: none;
+    box-shadow: 3px 3px 3px black;
+}
+.botoes0 .cont1 .b1 {
+    top: 0px;
+    left: 0px;
+    color: rgb(145, 96, 5);;
+}
+.botoes0 .cont1 .b2 {
+    top: 5px;
+    left: 50px;
+    color: rgb(95, 41, 50);
+}
+.botoes0 .cont1 .b3 {
+    top: 40px;
+    left: 0px;
+}
+.botoes0 .cont1 .b4 {
+    top: 40px;
+    right: 0px;
+}
+.botoes0 .cont3 .b1 {
+    top: 5px;
+    left: 0px;
+}
+.botoes0 .cont3 .b2 {
+    top: 0px;
+    left: 50px;
+}
+.botoes0 .cont3 .b3 {
+    top: 40px;
+    left: 0px;
+}
+.botoes0 .cont3 .b4 {
+    top: 40px;
+    right: 0px;
+}
+.botoes0 .cont1 .fatorial, .npr , .rec , .raiz-cubica {
+    position: absolute;
+    top: -9px;
+}
+.botoes0 .npr , .raiz-cubica {
+    left: 70px;
+}
+.botoes0 .fatorial , .rec{
+    left: 17px;
+}
+
+
+/*Centas*/
+.botoes0 .cont2{
+    background-color: rgb(195, 189, 189);
+    border-radius: 35px;
+}
+.botoes0 .cont2 button{
+    background-color: transparent;
+    border: none;
+    width: 30px;
+}
+.botoes0 .cont2 .b1 {
+    top: -7px;
+    left: 40%;
+    transform: translateX(-50%);
+}
+.botoes0 .cont2 .b2 {
+    top: 40%;
+    transform: translateY(-50%);
+    left: -10px;
+
+}
+.botoes0 .cont2 .b3 {
+    bottom: -7px;
+    left: 40%;
+    transform: translateX(-50%);
+}
+.botoes0 .cont2 .b4 {
+    top: 40%;
+    transform: translateY(-50%);
+    right: -10px;
+}
+.botoes0 .cont2 .b5 {
+    width: 50px;
+    height: 30px;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+
+.botoes button{
+    width: 40px;
+    padding: 5px 0;
+    margin: 10px;
+    color: white;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.805);
+    background-color: rgb(124, 120, 120);
+    cursor: pointer;
+}
+.botoes .delete,.botoes .ac{
+    background-color: rgb(176, 0, 0);
+}
+p{
+    width: 100%;
+    padding: 0 10px;
+    position: absolute;
+    bottom: 36px;
+    font-size: 8pt;
+    color: rgb(230, 164, 44);
+}
+.botoes p span{
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+}
+.rnd{
+    left: 45px;
+}
+.rand{
+    left: 100px;
+}
+.pi{
+    left: 170px;
+}
+.perc{
+    right: 50px;
+}
+.DRG{
+    right: 105px;
+}

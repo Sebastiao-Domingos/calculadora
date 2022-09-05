@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <section>
+        <div class="texto">
+            <h1>Casio</h1>
+            <h2>scientific calculator</h2>
+        </div>
+        <div class="tela">
+            <textarea name="" id="entrada"  rows="1"></textarea>
+            <textarea name="" id="saida"  rows="1">0.</textarea>
+        </div>
+        <div class="botoes0">
+            <div class="cont1">
+                <button class="simples1 b1" id="shift">shift</button>
+                <button class="simples1 b2"  >alpha</button>
+                <button class="simples b3" onclick="digitar('^-1')">x<sup>-1</sup></button>
+                <button class="simples b4">nCr</button>
+                <p> 
+                    <label for="" class="fatorial">x!</label>
+                    <label for="" class="npr">npr</label>
+                </p>
+            </div>
+            <div class="cont2">
+                <button class="b1" >&UpArrow;</button>
+                <button class="b2">&leftarrow;</button>
+                <button class="b3">&downarrow;</button>
+                <button class="b4">&rightarrow;</button>
+                <button class="b5">Replay</button>
+            </div>
+            <div class="cont3">
+                <button class="simples1 b1">Mode</button>
+                <button class="simples1 b2" id="ligar">No</button>
+                <button class="simples b3">Pol(</button>
+                <button class="simples b4">x<sup>3</sup></button>
+                <p>
+                    <label for="" class="rec">Rec(</label> 
+                    <label for="" class="raiz-cubica">3&Sqrt;</label>
+                </p>
+            </div>
+            
+        </div>
+        <div class="botoes1">
+            <button class="btn">ab/c</button>
+            <button class="btn" onclick="digitar(this)">&Sqrt;</button>
+            <button class="btn">x<sup>2</sup></button>
+            <button class="btn" onclick="digitar(this)">^</button>
+            <button class="btn" onclick="digitar(this)">log</button>
+            <button class="btn" onclick="digitar(this)">ln</button>
+            <button class="btn">(-)</button>
+            <button class="btn">.,,,</button>
+            <button class="btn">hyp</button>
+            <button class="btn" onclick="digitar(this)">sin</button>
+            <button class="btn" onclick="digitar(this)">cos</button>
+            <button class="btn" onclick="digitar(this)">tan</button>
+            <button class="btn">RCL</button>
+            <button class="btn">ENG</button>
+            <button class="btn" onclick="digitar(this)">(</button>
+            <button class="btn" onclick="digitar(this)">)</button>
+            <button class="btn">,</button>
+            <button class="btn">M+</button>
+        </div>
+        <div class="botoes">
+            <button class="btn7" onclick="digitar(this)">7</button>
+            <button class="btn8" onclick="digitar(this)">8</button>
+            <button class="btn9" onclick="digitar(this)">9</button>
+            <button class="delete" onclick="limpar(this)">DEL</button>
+            <button class="ac" onclick="limpar(this)">AC</button>
+            <button class="btn4" onclick="digitar(this)" >4</button>
+            <button class="btn5" onclick="digitar(this)">5</button>
+            <button class="btn6" onclick="digitar(this)">6</button>
+            <button class="mult" onclick="digitar(this)">x</button>
+            <button class="divisao" onclick="digitar(this)">:</button>
+            <button class="btn1" onclick="digitar(this)">1</button>
+            <button class="btn2" onclick="digitar(this)">2</button>
+            <button class="btn3" onclick="digitar(this)">3</button>
+            <button class="soma" onclick="digitar(this)">+</button>
+            <button class="subtracao" onclick="digitar(this)">-</button>
+            <button class="btn1" onclick="digitar(this)">0</button>
+            <button class="ponto" onclick="digitar(this)">.</button>
+            <button class="exp" onclick="digitar(this)">EXP</button>
+            <button class="ans" onclick="digitar(this)">ANS</button>
+            <button class="igual" onclick="igualidade(this)">=</button>
+            <p>
+                <span class="rnd">Rnd</span>
+                <span class="rand">Rand#</span>
+                <span class="pi">&pi;</span>
+                <span class="DRG">DRG</span>
+                <span class="perc">&percnt;</span>
+            </p>
+        </div>
+    </section>
+    <script src="codigo.js"></script>
+</body>
+</html>
